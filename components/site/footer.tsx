@@ -92,7 +92,7 @@ export function Footer() {
       <div className="border-t border-dark-foreground/10">
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 px-4 py-5 text-sm text-dark-muted md:flex-row md:items-center md:justify-between md:px-6">
           <p>
-            © {new Date().getFullYear()} {business.name}. Todos os direitos reservados.
+            © {new Date().getFullYear()} {business.name}. Todos os direitos reservados. 49.059.375 LEONARDO SANTANA DA SILVA · CNPJ 49.059.375/0001-16
           </p>
           <nav aria-label="Links legais" className="flex gap-4">
             <Link href="/politica-de-privacidade" className="underline-offset-4 hover:underline">
