@@ -46,15 +46,21 @@ export default function PoliticaDePrivacidadePage() {
         armazenam dados fora do Brasil: a plataforma oficial de integração com o WhatsApp
         (YCloud, com servidores em Singapura), o serviço de inteligência artificial que dá suporte
         à assistente virtual (Anthropic) e a hospedagem do nosso sistema (Hostinger, nos Estados
-        Unidos). Essa transferência é necessária para atender ao seu próprio pedido de orçamento ou
-        serviço. Não vendemos os seus dados.
+        Unidos), além da própria Meta/WhatsApp. Essa transferência é necessária para atender ao seu
+        próprio pedido de orçamento ou serviço. Não vendemos os seus dados.
       </p>
 
       <h2 className="text-xl font-bold">Por quanto tempo guardamos</h2>
       <p>
-        Fotos e áudios recebidos pelo WhatsApp: até 90 dias (prazo que cobre a garantia da inspeção
-        visual). Mensagens e o histórico de atendimento: até 2 anos. Depois desses prazos, os dados
-        são apagados ou tornados anônimos.
+        No nosso próprio sistema: fotos e áudios recebidos pelo WhatsApp ficam até 90 dias (prazo
+        que cobre a garantia da inspeção visual); mensagens e o histórico de atendimento ficam até
+        2 anos. Depois desses prazos, os dados são apagados ou tornados anônimos.
+      </p>
+      <p>
+        Isso é diferente do prazo de cada fornecedor: a YCloud, que apenas repassa as mensagens
+        para o nosso sistema, mantém sua própria cópia por até 6 meses, segundo a política dela.
+        A Meta/WhatsApp e a Anthropic têm suas próprias políticas de retenção, que não controlamos
+        e podem ser diferentes das nossas.
       </p>
 
       <h2 className="text-xl font-bold">Dados de navegação no site</h2>
