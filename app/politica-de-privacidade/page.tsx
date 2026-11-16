@@ -15,6 +15,7 @@ export default function PoliticaDePrivacidadePage() {
         Esta página explica como a {business.name} trata as informações de quem acessa este site
         e de quem fala com a gente pelo nosso WhatsApp oficial {business.phoneDisplay}.
       </p>
+      <p className="text-sm text-muted-foreground">Atualizada em 16 de novembro de 2026.</p>
 
       <h2 className="text-xl font-bold">Quem trata os seus dados</h2>
       <p>
@@ -42,12 +43,40 @@ export default function PoliticaDePrivacidadePage() {
 
       <h2 className="text-xl font-bold">Fornecedores de tecnologia e transferência internacional</h2>
       <p>
-        Para operar esse atendimento, as mensagens podem passar por fornecedores de tecnologia que
-        armazenam dados fora do Brasil: a plataforma oficial de integração com o WhatsApp
-        (YCloud, com servidores em Singapura), o serviço de inteligência artificial que dá suporte
-        à assistente virtual (Anthropic) e a hospedagem do nosso sistema (Hostinger, nos Estados
-        Unidos), além da própria Meta/WhatsApp. Essa transferência é necessária para atender ao seu
-        próprio pedido de orçamento ou serviço. Não vendemos os seus dados.
+        Para operar esse atendimento, usamos somente fornecedores de tecnologia que tratam os
+        dados em nosso nome e de acordo com as nossas instruções:
+      </p>
+      <ul className="list-disc space-y-2 pl-6">
+        <li>
+          <strong>Meta / WhatsApp</strong> (plataforma oficial do WhatsApp Business): transmite e
+          guarda as mensagens. A transferência para fora do Brasil segue as cláusulas-padrão
+          contratuais aprovadas pela ANPD (Resolução CD/ANPD nº 19/2024), incorporadas aos termos
+          do WhatsApp Business.
+        </li>
+        <li>
+          <strong>Plataforma oficial de integração com o WhatsApp</strong>, quando utilizada: liga o
+          WhatsApp ao nosso sistema. O nome do fornecedor, o país dos servidores e o prazo de
+          guarda serão informados nesta página antes de a assistente virtual entrar em operação.
+        </li>
+        <li>
+          <strong>Anthropic</strong> (inteligência artificial, Estados Unidos): recebe apenas o
+          texto da conversa necessário para a assistente virtual responder.
+        </li>
+        <li>
+          <strong>Hostinger</strong> (hospedagem do nosso sistema, Estados Unidos), com acesso
+          restrito e cópias de segurança criptografadas.
+        </li>
+      </ul>
+      <p>
+        Os <strong>áudios</strong> que você nos envia são transcritos no nosso próprio servidor:
+        não são enviados a serviços de transcrição ou de inteligência artificial de terceiros.
+        Mensagens de fornecedores, funcionários e contatos não identificados não passam pela
+        assistente virtual. Não vendemos os seus dados.
+      </p>
+      <p>
+        As transferências para fora do Brasil acontecem porque são necessárias para atender ao seu
+        próprio pedido de orçamento ou serviço (LGPD, art. 33, IX, e art. 7º, V) e, no caso da
+        Meta/WhatsApp, também com base nas cláusulas-padrão da ANPD (LGPD, art. 33, II, a).
       </p>
 
       <h2 className="text-xl font-bold">Por quanto tempo guardamos</h2>
@@ -57,9 +86,8 @@ export default function PoliticaDePrivacidadePage() {
         2 anos. Depois desses prazos, os dados são apagados ou tornados anônimos.
       </p>
       <p>
-        Isso é diferente do prazo de cada fornecedor: a YCloud, que apenas repassa as mensagens
-        para o nosso sistema, mantém sua própria cópia por até 6 meses, segundo a política dela.
-        A Meta/WhatsApp e a Anthropic têm suas próprias políticas de retenção, que não controlamos
+        Isso é diferente do prazo de cada fornecedor: a Meta/WhatsApp, a plataforma de integração
+        (quando utilizada) e a Anthropic têm suas próprias regras de retenção, que não controlamos
         e podem ser diferentes das nossas.
       </p>
 
